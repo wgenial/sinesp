@@ -1,5 +1,5 @@
 {
-  "name": "chapeupreto/sinesp",
+  "name": "wgenial/sinesp",
   "description": "SINESP Cidadao API client",
   "keywords": ["sinesp", "sinesp-client", "placa", "veiculos", "governo", "seguranca", "utilidade"],
   "type": "library",

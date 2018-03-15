@@ -1,6 +1,6 @@
 # Sinesp Cidadão PHP
 
-<a href="https://packagist.org/packages/chapeupreto/sinesp"><img src="https://poser.pugx.org/chapeupreto/sinesp/version" alt="Latest stable release"></img></a>
+<a href="https://packagist.org/packages/wgenial/sinesp"><img src="https://poser.pugx.org/wgenial/sinesp/version" alt="Latest stable release"></img></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg" alt="Software license"></img></a>
 <a href="https://packagist.org/packages/chapeupreto/sinesp"><img src="https://img.shields.io/packagist/dt/chapeupreto/sinesp.svg" alt="Total downloads"></img></a>
 
