@@ -7,6 +7,7 @@ class Sinesp
     private $secret = '#8.1.0#Mw6HqdLgQsX41xAGZgsF';
     private $url = 'https://cidadao.sinesp.gov.br/sinesp-cidadao/mobile/consultar-placa/v3';
     private $proxy = null;
+    private $timeout = 0;
 
     private $placa = '';
     private $response = '';
@@ -30,6 +31,11 @@ class Sinesp
     public function proxy($ip, $porta)
     {
         $this->proxy = $ip . ':' . $porta;
+    }
+
+    public function timeout($timeout)
+    {
+        $this->timeout = $timeout;
     }
 
     public function __get($name)
@@ -62,6 +68,7 @@ class Sinesp
         );
 
         $ch = curl_init();
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $this->timeout);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_URL, $this->url);
 
